@@ -26,3 +26,6 @@ Then it **elaborates** the *any* entity with the name `*_tb`. In this case, that
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels will be reported, but not fail the workflow.
+
+Documentation Statement:
+On 2/23, I met with Lt Col Trimble for EI to help with fixing the syntax, logic and other different areas with sevenSegDecoder.vhd and top_basys3_tb.vhd files. Additionally, on 2/24, C3C Wynn helped me with the following: helped me understand K-Maps better, helped fix my signals in the sevenSegDecoder, and added the rest of the annodes in the concurrent statements of the top_basys3.vhd file. From there, I was able to fix my equations in the prelab and fix my logic.
